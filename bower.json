@@ -1,0 +1,18 @@
+{
+    "name": "maxbucknell/foundation4-amd",
+    "location": "https://github.com/maxbucknell/foundation4-amd",
+    "description": "Just like Foundation 4 from Zurb, but made to export AMD Modules, rather than a global variable.",
+    "keywords": ["amd", "zurb", "foundation"],
+    "license": "MIT",
+    "authors": [
+        {"name": "Max Bucknell", "email": "me@maxbucknell.com"},
+        {"name": "All the Zurb Foundation authors", "homepage": "http://foundation.zurb.com"}
+    ],
+    "repository": {
+        "type": "git", "url": "git://github.com/maxbucknell/foundation4-amd"
+    }
+    "version": "4.3.2",
+    "dependencies": {
+        "jQuery": "~1"
+    }
+}
