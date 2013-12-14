@@ -16,7 +16,7 @@
   ],
   "require":{
     "magento-hackathon/magento-composer-installer": "*",
-    "maxbucknell/magento-amdjs": "~1",
+    "maxbucknell/magento-amdjs": "~1"
   },
   "extra":{
     "map":[
