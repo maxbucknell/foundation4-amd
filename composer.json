@@ -1,0 +1,27 @@
+{
+  "name": "maxbucknell/foundation4-amd",
+  "version": "4.3.2",
+  "type": "magento-module",
+  "description": "A version of Zurb Foundation for maxbucknell/magento-amdjs",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Max Bucknell",
+      "email": "me@maxbucknell.com"
+    },
+    {
+      "name": "All the Zurb Foundation authors",
+      "homepage": "http://foundation.zurb.com"
+    }
+  ],
+  "require":{
+    "magento-hackathon/magento-composer-installer": "*",
+    "maxbucknell/magento-amdjs": "~1",
+  },
+  "extra":{
+    "map":[
+      ["foundation.js", "js/maxbucknell/amdjs/modules/"],
+      ["foundation", "js/maxbucknell/amdjs/modules"]
+    ]
+  }
+}
